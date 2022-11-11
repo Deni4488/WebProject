@@ -1,0 +1,206 @@
+body {
+  position: relative;
+  left: 284px;
+  width: 1000px;
+  background:  #f8f8f8;
+}
+
+header {
+  margin-top: 7px;
+  background: rgb(255, 123, 0);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  position: relative;
+  right: 8px;
+}
+
+.name {
+  position: relative;
+  right: 20px;
+}
+
+.message {
+  margin-bottom: 0;
+  position: relative;
+  left: 25px;
+  bottom: 16px;
+}
+
+::-webkit-input-placeholder {
+  color: #000000;
+  opacity: 1;
+}
+
+:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.login {
+  position: relative;
+  right: 53px;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 3px;
+}
+
+.login button {
+  width: 65px;
+}
+
+menu {
+  padding-left: 0;
+  height: 35px;
+  background: rgb(208, 203, 193);
+  margin-top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.page {
+  display: flex;
+  gap: 30px;
+}
+
+.right {
+  display: flex;
+  gap: 15px;
+}
+
+content {
+  width: 1000px;
+}
+
+content h1 {
+  margin-top: 5px;
+}
+
+content h3 {
+  margin-top: 9px;
+}
+
+content h4 {
+  margin-top: 36px;
+}
+
+table {
+  border: 1px solid grey;
+  border-spacing: 4px;
+}
+
+td {
+  border: 1px solid grey;
+}
+
+block {
+  width: 1000px;
+}
+
+block h1 {
+  text-align: center;
+}
+
+catalog {
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+images {
+  text-align: center;
+}
+
+description h3 {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  background: #eaeaea;
+}
+
+description h4 {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  background: #eaeaea;
+}
+
+description p {
+  color: #484343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+description ul{
+  color: #8B4513;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 30px;
+  background: #FFE4E1;
+}
+
+contact {
+  width: 1000px;
+}
+
+contact h1 {
+  text-align: center;
+}
+
+.write input {
+  color: #483D8B;
+  font-size: 17px;
+  margin-left: 347px;
+  width: 300px;
+  height: 20px;
+  margin-bottom: 5px;
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 3px;
+}
+
+.write textarea {
+  color: #483D8B;
+  font-size: 17px;
+  margin-left: 347px;
+  width: 302px;
+  margin-bottom: 15px;
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 3px;
+}
+
+.write button {
+  margin-left: 347px;
+  width: 308px;
+  height: 37px;
+  margin-bottom: 15px;
+}
+
+contact p {
+  text-align: center;
+}
+
+footer {
+  padding-left: 27px;
+  height: 27px;
+  background: rgb(255, 123, 0);
+  display: flex;
+  align-items: center;
+}
